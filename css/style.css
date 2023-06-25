@@ -1,7 +1,8 @@
 .gradient-background {
-  background: linear-gradient(to bottom right, #33ccff 0%, #ff99cc 100%);
+  background: linear-gradient(-45deg, #33ccff, #ff99cc, #ff6699 );
   background-size: 180% 180%;
-  animation: gradient-animation 18s ease infinite;
+  animation: gradient-animation 4s ease infinite;
+  
 }
 
 @keyframes gradient-animation {
@@ -31,5 +32,5 @@
  background-color: #33ccff;
 }
 .card-header, .profile-img{
-  background-color: #ffccff;
+  background-color: #ff99cc;
 }

@@ -1,0 +1,35 @@
+.gradient-background {
+  background: linear-gradient(to bottom right, #33ccff 0%, #ff99cc 100%);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.icon-square {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.75rem;
+}
+
+.profile-img {
+  border-radius: 50%;
+  height: 100px;
+}
+
+.w-100, .btn, .btn-lg{
+ background-color: #33ccff;
+}
+.card-header, .profile-img{
+  background-color: #ffccff;
+}
